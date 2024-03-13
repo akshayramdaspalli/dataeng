@@ -17,7 +17,7 @@ if __name__ == '__main__':
     df = pd.read_csv(file_path, encoding="utf-8")
     print(df)
     conn_str = "mysql+mysqlconnector://hanoomac_dataeng:LetsD0C0nnect@txpro1.fcomet.com:3306/hanoomac_dataeng"
-
+    print("connection string set")
 
 
     engine = create_engine(conn_str, echo=True)
