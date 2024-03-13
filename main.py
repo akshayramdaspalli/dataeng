@@ -29,7 +29,7 @@ if __name__ == '__main__':
         "SELECT * FROM BOOKS",
         con=engine
     )
-
+    print("Read from Table BOOKS.")
     print(sql_df)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
