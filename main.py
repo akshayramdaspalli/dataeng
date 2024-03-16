@@ -15,9 +15,11 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     file_path = "E:\\Books.csv"
     file_path2="E:\\Ratings.csv"
-    df = pd.read_csv(file_path, encoding="utf-8")
+    file_path3="E:\\Users.csv"
+    df = pd.read_csv(file_path,low_memory=False, encoding="utf-8")
     print(df)
     df2=pd.read_csv(file_path2,low_memory=False,encoding="utf-8")
+    df3 = pd.read_csv(file_path3, low_memory=False, encoding="utf-8")
     conn_str = "mysql+mysqlconnector://hanoomac_dataeng:LetsD0C0nnect@txpro1.fcomet.com:3306/hanoomac_dataeng"
     print("connection string set")
 
@@ -26,6 +28,7 @@ if __name__ == '__main__':
 
     df.to_sql('BOOKS', engine, if_exists='replace')
     df2.to_sql('Rating',engine,if_exists='replace')
+    df3.to_sql('Users', engine, if_exists='replace')
     # read table data using sql query
     sql_df = pd.read_sql(
         "SELECT * FROM BOOKS",
