@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-03-23T08:50:40.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="wqwgeMkFD9A47XPmk6ue" version="23.1.5" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="864" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WDlARO25O25kJWfZPvrY-1" value=" Loading data from CSV file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-2" value="Trimming the data and checking schema" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-4" value="Cleansing the data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="240" width="135" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-6" value=" Establishing connection to MySQL database" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-11" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="465" y="140" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-12" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-13" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="370" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-14" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="120" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-16" value="MYSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="510" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-17" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-18" value="LOCAL DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-19" value="CSV FILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WDlARO25O25kJWfZPvrY-20" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="85" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
